@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="styles.css">
+    <title>Gamified Coding Dashboard</title>
+</head>
+<body>
+    <div class="dashboard">
+        <header>
+            <h1>AlgoUniversity Coding Dashboard</h1>
+        </header>
+        <main>
+            <section class="overview">
+                <h2>Overview</h2>
+                <div class="stats">
+                    <div class="stat">
+                        <h3>Active Users</h3>
+                        <p id="active-users">1200</p>
+                    </div>
+                    <div class="stat">
+                        <h3>Completed Challenges</h3>
+                        <p id="completed-challenges">800</p>
+                    </div>
+                    <div class="stat">
+                        <h3>Average Score</h3>
+                        <p id="average-score">85%</p>
+                    </div>
+                </div>
+            </section>
+            <section class="progress">
+                <h2>Student Progress</h2>
+                <div class="progress-bar" id="student-progress"></div>
+            </section>
+            <section class="achievements">
+                <h2>Achievements</h2>
+                <ul id="achievements-list">
+                    <!-- Achievements will be dynamically added here -->
+                </ul>
+            </section>
+            <section class="gamification">
+                <h2>Gamification</h2>
+                <div class="point-system">
+                    <h3>Points</h3>
+                    <p id="user-points">350</p>
+                </div>
+                <div class="badges">
+                    <h3>Badges</h3>
+                    <ul id="badges-list">
+                        <!-- Badges will be dynamically added here -->
+                    </ul>
+                </div>
+                <div class="leaderboard">
+                    <h3>Leaderboard</h3>
+                    <ul id="leaderboard-list">
+                        <!-- Leaderboard entries will be dynamically added here -->
+                    </ul>
+                </div>
+            </section>
+        </main>
+    </div>
+    <script src="script.js"></script>
+</body>
+</html>

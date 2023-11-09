@@ -1,0 +1,89 @@
+body {
+    font-family: 'Arial', sans-serif;
+    margin: 0;
+    padding: 0;
+}
+
+.dashboard {
+    max-width: 1200px;
+    margin: 0 auto;
+    background-color: #f4f4f4;
+    padding: 2em;
+}
+
+header {
+    background-color: #4CAF50;
+    color: white;
+    text-align: center;
+    padding: 1em;
+}
+
+main {
+    display: flex;
+    justify-content: space-around;
+    align-items: flex-start;
+}
+
+section {
+    width: 30%;
+    background-color: white;
+    margin: 1em;
+    padding: 1em;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+.stats {
+    display: flex;
+    justify-content: space-between;
+}
+
+.stat {
+    flex: 1;
+    text-align: center;
+    padding: 1em;
+}
+
+.progress-bar {
+    width: 0;
+    height: 20px;
+    background-color: #4CAF50;
+    margin-top: 1em;
+}
+
+#achievements-list {
+    list-style-type: none;
+    padding: 0;
+}
+
+#achievements-list li {
+    margin-bottom: 1em;
+    color: #4CAF50;
+}
+
+
+.gamification {
+    width: 30%;
+    background-color: white;
+    margin: 1em;
+    padding: 1em;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+.point-system,
+.badges,
+.leaderboard {
+    margin-top: 1em;
+}
+
+#user-points,
+#badges-list,
+#leaderboard-list {
+    list-style-type: none;
+    padding: 0;
+}
+
+#badges-list li,
+#leaderboard-list li {
+    margin-bottom: 1em;
+    color: #4CAF50;
+}
